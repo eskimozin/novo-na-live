@@ -21,14 +21,14 @@ const { post } = Astro.props;
   </div>
 
   <div class='hidden sm:inline-block'>
-    <p class='poppins mt-2'>tags:</p>
+    <p class='inter mt-2'>tags:</p>
     <div class='flex justify-between items-center'>
       <ul class='flex flex-wrap gap-4 mt-2'>
         {
           post.data.tags.map((tag) => {
             return (
               <li>
-                <a class="sanchez" href={`/blog/tags/${tag.toLowerCase()}/`}>
+                <a class="inter" href={`/blog/tags/${tag.toLowerCase()}/`}>
                   <Pill>{tag}</Pill>
                 </a>
               </li>

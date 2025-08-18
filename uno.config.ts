@@ -10,6 +10,7 @@ export default defineConfig({
     presetWind(),
     presetIcons({
       collections: {
+        // @ts-ignore
         logos: () =>
           import('@iconify-json/logos/icons.json').then((i) => i.default),
         uil: () =>

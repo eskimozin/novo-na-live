@@ -9,66 +9,62 @@ const getFontPath = (name: string) => join(appDir, "public", "fonts", name);
 <AstroFont
   config={[
     {
-      name: "Outfit",
+      name: "Inter",
       display: "swap",
-      selector: ".outfit",
+      selector: ".inter",
       fallback: "sans-serif",
       src: [
         {
           style: "normal",
-          path: getFontPath("outfit.ttf"),
+          path: getFontPath("inter.ttf"),
         },
       ],
     },
     {
+      name: "Inter",
       display: "swap",
-      name: "Poppins",
-      selector: ".poppins",
+      selector: ".inter",
       fallback: "sans-serif",
       src: [
         {
-          preload: false,
-          style: "normal",
-          path: getFontPath("poppins.ttf"),
+          style: "italic",
+          path: getFontPath("inter-italic.ttf"),
         },
       ],
     },
     {
+      name: "Inter Tight",
       display: "swap",
-      name: "Righteous",
+      selector: ".inter-tight",
       fallback: "sans-serif",
-      selector: ".righteous",
       src: [
         {
-          preload: false,
           style: "normal",
-          path: getFontPath("righteous.ttf"),
+          path: getFontPath("inter-tight.ttf"),
         },
       ],
     },
     {
+      name: "Inter Tight",
       display: "swap",
-      name: "Sanchez",
-      fallback: "serif",
-      selector: ".sanchez",
+      selector: ".inter-tight",
+      fallback: "sans-serif",
       src: [
         {
-          preload: false,
-          style: "normal",
-          path: getFontPath("sanchez.ttf"),
+          style: "italic",
+          path: getFontPath("inter-tight-italic.ttf"),
         },
       ],
     },
     {
+      name: "Mozilla Text",
       display: "swap",
-      fallback: "serif",
-      selector: ".dm-serif",
-      name: "DM Serif Text",
+      selector: ".mozilla-text",
+      fallback: "sans-serif",
       src: [
         {
-          preload: false,
           style: "normal",
-          path: getFontPath("dm-serif.ttf"),
+          path: getFontPath("mozilla-text.ttf"),
         },
       ],
     },
