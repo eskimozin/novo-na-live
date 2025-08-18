@@ -12,15 +12,15 @@ interface Props {
   ogImage?: URL;
 }
 
-const { title, description, classList, pageTitle, ogImage } = Astro.props;
+const {title, description, classList, pageTitle, ogImage} = Astro.props;
 ---
 
-<html lang='en' class='h-full'>
-  <BaseHead ogImage={ogImage} title={title} description={description} />
+<html lang='pt-br' class='h-full'>
+<BaseHead ogImage={ogImage} title={title} description={description}/>
 
-  <body class:list={[classList]}>
-    <BaseNavigation {pageTitle} />
-    <slot />
-    <BaseFooter />
-  </body>
+<body class:list={[classList]}>
+<BaseNavigation {pageTitle}/>
+<slot/>
+<BaseFooter/>
+</body>
 </html>
