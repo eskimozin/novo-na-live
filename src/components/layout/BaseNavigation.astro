@@ -1,19 +1,21 @@
 ---
+import resources from "../../data/resources/resources";
+
 interface Props {
   pageTitle?: string;
 }
 
 const navigationItems = [
   {name: 'Home', url: '/'},
-  {name: 'XXX', url: '/#'},
-  {name: 'Blog', url: '/blog/'},
-  {name: 'YYY', url: '/#'},
+  {name: 'Comece por aqui', url: '/#'},
+  {name: 'Figurinhas da live', url: '/#'},
+  {name: 'Por dentro de tudo', url: '/#'},
 ];
 
 const socialIcons = [
   {
-    name: 'GitHub',
-    url: 'https://github.com/',
+    name: 'Repositório no Github',
+    url: resources["github-repo"],
     icon: 'i-uil-github',
   },
 ];
@@ -23,8 +25,8 @@ const {pageTitle} = Astro.props;
 
 <header class='border-b-4 border-black flex justify-between p-6 items-center'>
   {pageTitle && <h1 class='hidden'>{pageTitle}</h1>}
-  <a href='/' title='Back to Home'>
-    <p class='inter md:text-5xl'>Brutal</p>
+  <a href='/' title='Ir para a Home'>
+    <p class='inter md:text-3xl'>Novo na Live</p>
   </a>
   <nav class='hidden md:inline-block'>
     <h2 class='hidden'>Navigation</h2>
@@ -49,7 +51,7 @@ const {pageTitle} = Astro.props;
               href={item.url}
               class='hover:text-green hover:underline transition-all duration-150 ease-in-out'
               target='_blank'
-              title={`'See @ElianCodes on ${item.name}`}
+              title={`${item.name}`}
             >
               <div class:list={[item.icon, 'w-6 h-6']}/>
             </a>
@@ -58,10 +60,10 @@ const {pageTitle} = Astro.props;
       }
     </ul>
   </nav>
-  <nav class='md:hidden flex'>
+  <nav class='md:hidden flex inter'>
     <h2 class='hidden'>Mobile Navigation</h2>
     <ul>
-      <li><a href='/blog/'>Blog</a></li>
+      <li><a href='/'>Tutoriais</a></li>
     </ul>
   </nav>
 </header>

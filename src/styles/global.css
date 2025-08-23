@@ -128,3 +128,21 @@ html {
 .brutal-btn {
     font-family: "Inter", sans-serif !important;
 }
+
+.brutal-pill {
+    line-break: strict;
+    text-wrap: nowrap !important;
+
+    * {
+        line-break: strict;
+        text-wrap: nowrap !important;
+    }
+}
+
+.text-balance {
+    text-wrap: balance;
+}
+
+.lh-1 {
+    line-height: 1.15 !important;
+}

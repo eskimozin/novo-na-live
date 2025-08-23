@@ -1,0 +1,18 @@
+---
+interface Props {
+  pubDate: Date;
+  author: string;
+}
+
+const {pubDate, author} = Astro.props;
+---
+
+<article class='prose-slate w-sm md:w-prose md:prose inter'>
+  <a href='/post/' title='Back to blog'>&larr; Voltar</a>
+  <p class='text-slate text-sm md:text-base'>
+    Publicado em {pubDate} por {author}
+  </p>
+  <slot/>
+  <p class='text-slate'>Escrito por {author}</p>
+  <a href='/post/' title='Back to blog'>&larr; Voltar</a>
+</article>

@@ -1,4 +1,7 @@
 ---
+import resources from "../../data/resources/resources";
+import {Button} from '@eliancodes/brutal-ui';
+
 export interface Props {
   backToTop?: boolean;
 }
@@ -34,22 +37,14 @@ const {backToTop = false} = Astro.props;
   }
 
 <footer class='bg-white border-t border-black border-t-4 text-center p-6'>
-  <p class='inter'>
-    Tema "Brutal" para o Astro - criado por
-    <a
-      href='https://www.elian.codes/'
-      target='_blank'
-      class='text-blue'>ElianCodes</a
-    >
+  <Button href={resources["add-content-suggestion"]}>Sugerir adição de conteúdo</Button>
+  <p class='inter text-balance mt-8'>
+    <span>Tema "Brutal" para o Astro criado por</span>
+    <a href='https://www.elian.codes/' target='_blank' class='text-blue'>ElianCodes</a>
   </p>
-  <p class='inter'>
-    Adaptado pelo
-    <a
-      href='https://github.com/gabriersdev/'
-      target='_blank'
-      class='text-blue'>Gabriel</a
-    >
-    para o projeto
+  <p class='inter text-balance mt-2'>
+    <span>Adaptado pelo</span>
+    <a href='https://github.com/gabriersdev/' target='_blank' class='text-blue'>Gabriel</a> para o projeto "Novo na Live"
   </p>
 </footer>
 
