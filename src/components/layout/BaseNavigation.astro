@@ -23,14 +23,14 @@ const socialIcons = [
 const {pageTitle} = Astro.props;
 ---
 
-<header class='border-b-4 border-black flex justify-between p-6 items-center'>
+<header class='border-b-4 border-black flex justify-between p-6 items-center flex-wrap gap-8'>
   {pageTitle && <h1 class='hidden'>{pageTitle}</h1>}
   <a href='/' title='Ir para a Home'>
     <p class='inter md:text-3xl'>Novo na Live</p>
   </a>
   <nav class='hidden md:inline-block'>
     <h2 class='hidden'>Navigation</h2>
-    <ul class='flex gap-8 inter'>
+    <ul class='flex gap-8 inter flex-wrap'>
       {
         navigationItems.map((item) => (
           <li>
@@ -63,7 +63,7 @@ const {pageTitle} = Astro.props;
   <nav class='md:hidden flex inter'>
     <h2 class='hidden'>Mobile Navigation</h2>
     <ul>
-      <li><a href='/'>Tutoriais</a></li>
+      <li><a href='/'>Comece por aqui</a></li>
     </ul>
   </nav>
 </header>

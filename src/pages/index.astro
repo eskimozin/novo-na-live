@@ -23,15 +23,15 @@ const builtWith = [
     <MobileSocials/>
     <section id='about' class='grid grid-cols-2 md:grid-cols-8 gap-8 mt-4'>
       <h2 class='hidden'>About Brutal</h2>
-      <div class='col-span-4'>
+      <div class='col-span-4 md:col-span-8 lg:col-span-4'>
         <Card>
           <div class='flex flex-col justify-between items-start gap-4'>
             <p class='mozilla-text text-3xl md:text-4xl lg:text-5xl text-balance lh-1 fw-bold'>
               <span>Dicas e tutoriais para novos viewers da live do </span>
               <span>eskimozin</span>
-              <img src={resources["eskimozin-img"]} alt="Eskimozin" width='50px' height='50px' class="rounded-full inline-block"/>
+              <img src={resources["eskimozin-img"]} alt="Eskimozin" width='50px' height='50px' class="rounded-full block mt-4 md:inline-block md:mt-0"/>
             </p>
-            <p class='mt-2 inter text-balance text-[22.5px]'>
+            <p class='mt-2 inter text-balance text-[16px] md:text-[22.5px]'>
               O que é "7TV" ou "OME"? Você descobre aqui! Este é um pequeno tutorial para você entender melhor o funcionamento das lives na Twitch.
             </p>
             <div class="mb-3 mt-3">
@@ -42,7 +42,7 @@ const builtWith = [
           </div>
         </Card>
       </div>
-      <div class='col-span-4 md:col-span-2'>
+      <div class='col-span-4 md:col-span-4 lg:col-span-2'>
         <Card>
           <h2 class='text-2xl lg:text-4xl mb-4 mozilla-text fw-bold'>
             Como vejo as figurinhas da live? Tutorial sobre 7TV
@@ -65,23 +65,28 @@ const builtWith = [
           </ul>
         </Card>
       </div>
-      <div class='col-span-4 md:col-span-2'>
+      <div class='col-span-4 md:col-span-4 lg:col-span-2'>
         <Card>
-          <h2 class='text-2xl lg:text-4xl mb-4 mozilla-text fw-bold'>
-            Checklist
-          </h2>
-          <p class='inter'>
-            Veja os tutoriais e complete o checklist
-          </p>
-          <div class="mt-4 inter flex flex-col gap-1">
-            {
-              Array.from({length: 5}, (v, i) => {v = i + 1}).map(item => (
-                <label class="">
-                  <input type="checkbox" checked='checked' name='checked' />
-                  Checkbox {item}
-                </label>
-              ))
-            }
+          <div class="flex flex-col gap-4">
+            <h2 class='text-2xl lg:text-4xl mozilla-text fw-bold'>
+              Checklist
+            </h2>
+            <p class='inter'>
+              Veja os tutoriais e complete o checklist
+            </p>
+            <div class="inter flex flex-col gap-1">
+              {
+                Array.from({length: 5}, (v, i) => {
+                  v = i + 1
+                }).map(item => (
+                  <label class="">
+                    <input type="checkbox" checked='checked' name='checked'/>
+                    Checkbox {item}
+                  </label>
+                ))
+              }
+            </div>
+            <div class="mozilla-text text-lg fw-bold text-balance">✨ Parabéns! Você viu todos os tutoriais 👏</div>
           </div>
         </Card>
       </div>
