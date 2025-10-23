@@ -17,11 +17,11 @@ const { post } = Astro.props;
   description={post.data.description}
 >
   <div class='flex justify-end my-4'>
-    <Button href={`/blog/${post.id}/`}>Read post &rarr;</Button>
+    <Button href={`/blog/${post.id}/`}>Ler o post &rarr;</Button>
   </div>
 
   <div class='hidden sm:inline-block'>
-    <p class='inter mt-2'>tags:</p>
+    <!--<p class='inter mt-2'>tags:</p>-->
     <div class='flex justify-between items-center'>
       <ul class='flex flex-wrap gap-4 mt-2'>
         {
