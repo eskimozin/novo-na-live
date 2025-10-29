@@ -7,7 +7,7 @@ interface Props {
 
 const navigationItems = [
   {name: 'Home', url: '/'},
-  {name: 'Comece por aqui', url: '/blog/seven-tv'},
+  {name: 'Comece por aqui', url: '/blog/stay-tuned-to-the-live'},
   {name: 'Figurinhas da live', url: '/blog/seven-tv'},
   {name: 'Por dentro de tudo', url: '/blog/follow-on-all-social-networks-pimba'},
 ];
@@ -25,9 +25,11 @@ const {pageTitle} = Astro.props;
 
 <header class='border-b-4 border-black flex justify-between p-6 items-center flex-wrap gap-8'>
   {pageTitle && <h1 class='hidden'>{pageTitle}</h1>}
-  <a href='/' title='Ir para a Home'>
-    <p class='inter md:text-3xl'>Novo na Live</p>
-  </a>
+  <div class="">
+    <a href='/' title='Ir para a Home'>
+      <p class='inter md:text-xl'><span>Novo na Live</span> <span>🆕</span> </p>
+    </a>
+  </div>
   <nav class='hidden md:inline-block'>
     <h2 class='hidden'>Navigation</h2>
     <ul class='flex gap-8 inter flex-wrap'>

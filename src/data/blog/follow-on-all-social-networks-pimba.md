@@ -24,6 +24,7 @@ Texto
 
 ## Leia também
 
-- [Post #1](#)  
-- [Post #1](#)  
-- [Post #1](#)  
+- [Comece baixando o 7TV](blog/seven-tv/)
+- [Entre no Discord e nosso Reddit](blog/join-our-discord-and-our-subreddit/)
+- [Fique por dentro da live](blog/stay-tuned-to-the-live)
+- [Dicionário - Termos usados no chat e gírias](/blog/dictionary-terms-used-in-chat-and-slang)

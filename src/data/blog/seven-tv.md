@@ -6,6 +6,7 @@ tags:
   - Extensões
   - Figurinhas
   - Twitch
+  - Kick
 imgUrl: '../../assets/7TV.png'
 description: O chat da Twitch e YouTube parece sem graça? A 7TV é uma extensão que libera milhares de novos emotes (figurinhas) da comunidade. Veja como instalar.
 ---
@@ -60,6 +61,7 @@ Com a 7TV instalada, o chat das lives fica muito mais completo. Explore os emote
 
 ## Leia também
 
-- [Siga o eskimozin em TODAS as redes sociais](/blog/follow-on-all-social-networks-pimba/)  
-- [Post #1](#)  
-- [Post #1](#)  
+- [Entre no Discord e nosso Reddit](blog/join-our-discord-and-our-subreddit/)
+- [Fique por dentro da live](blog/stay-tuned-to-the-live)
+- [Siga o eskimozin em TODAS as redes sociais](blog/follow-on-all-social-networks-pimba/)
+- [Dicionário - Termos usados no chat e gírias](/blog/dictionary-terms-used-in-chat-and-slang)

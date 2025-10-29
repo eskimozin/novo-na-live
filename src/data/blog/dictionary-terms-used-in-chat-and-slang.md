@@ -1,46 +1,21 @@
 ---
 title: Dicionário - Termos que são usados no chat e gírias
-pubDate: 12/31/2022 12:05
-author: "Elian Van Cutsem"
+pubDate: 11/24/2025 03:00
+author: "Gabriers"
 tags:
-  - Astro
-  - WebDev
-  - Programming
-imgUrl: '../../assets/astro.jpeg'
-description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
+  - Twitch
+  - Kick
+imgUrl: '../../assets/dict.jpg'
+description: Atumalaca. DAMN. RIP Bozo. Fi do Bill. W? L? V? D? David Jones. Bruno. Arthur. André. Ana. José. Ricardo. Abner. Roberto.
 ---
 
-## Deorum petiit ignis
+# Dicionário - Termos usados no chat e gírias
 
-Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, *vox
-nocte sedesque*, decimo. Omnia esse, quam sive; conplevit illis indestrictus
-admovit dedit sub quod protectus, impedit non.
+Algumas gírias são [emotes do 7TV](https://7tv.app/users/01FCCQZQ0R000DADA0TPND248X)
 
-## Iovis late orbem Perseus sunt
+## Leia também
 
-Aras reperire, sui motis correpti coniunx Onetor amore ferire lacertis, petiit.
-Bis pallor et mecum me, igne patruelibus *tendebam*, vultu sterilique terruerat
-*tempore* medium aera **eadem Mittor**.
-
-- Non turba loca dederunt primordia ineamus Dictys
-- Tanti amat mundus sedula
-- Potuissent aetas parili coniuge se lumina breve
-- Tamen ille crepitantibus ulla coeperunt quibus iugulo
-- Pindusque solacia luctataque felix
-
-## Longum minus sic saepe
-
-Genu cupiens quoque: cum dolor: sollicitive cantu, et piae Leuconoe, huius non
-nil tuli Peleusque rauca. Et alvum cuncti Hippodamas meritis nec coniunx ausa,
-pete. Congestaque nisi nullus poena. Tanto cum, curvis vulnera quod optatis,
-trahens conplexa saepe.
-
-Hominum quo. Signa germanaeque iuvat at feruntur precantibus corpus praebuerat
-excipit mixtaeque inferior, haec percepit regum: nec nec sit ferenti.
-
-## Geminas namque quod referitur argenteus aderat superstes
-
-Insistere pugno. Cum morae vigilantibus dulces Cycnus: neque cum sororis.
-
-Hac Aestas solet docebo tandem tamquam omnis vitiantur mitte, vatis in animique
-infelix passimque. Superasset onus.
+- [Comece baixando o 7TV](blog/seven-tv/)
+- [Entre no Discord e nosso Reddit](blog/join-our-discord-and-our-subreddit/)
+- [Fique por dentro da live](blog/stay-tuned-to-the-live)
+- [Siga o eskimozin em TODAS as redes sociais](blog/follow-on-all-social-networks-pimba/)
