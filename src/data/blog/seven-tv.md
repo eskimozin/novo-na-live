@@ -6,7 +6,7 @@ tags:
   - Extensões
   - Figurinhas
   - Twitch
-imgUrl: '../../assets/astro.jpeg'
+imgUrl: '../../assets/7TV.png'
 description: O chat da Twitch e YouTube parece sem graça? A 7TV é uma extensão que libera milhares de novos emotes (figurinhas) da comunidade. Veja como instalar.
 ---
 
@@ -35,7 +35,7 @@ Para quem usa o Google Chrome ou navegadores parecidos (que usam a base Chromium
 3. Confirme a Instalação: Vai aparecer uma janelinha pedindo confirmação. Clique em "Adicionar extensão".
 4. Pronto! A extensão já vai estar funcionando. Quando você entrar em uma live, vai notar um novo ícone da 7TV no chat, onde você pode navegar pela biblioteca de emotes.
 
-### Firefox
+### Firefox - para Desktop
 
 A instalação no Firefox é um pouco mais chata, já que a extensão não está disponível diretamente na loja de complementos dele.
 
@@ -47,12 +47,19 @@ A instalação no Firefox é um pouco mais chata, já que a extensão não está
 
 [Consulte a página de ajuda do 7TV](https://help.7tv.app/en/) para ver se a extensão está disponível para o Safari e como instalá-la.
 
+### No celular
+
+Baixe um dos aplicativos que tem suporte ao 7TV:
+- [Chatsen - IOS e Android](https://chatsen.app/)
+- [DankChat - Android](https://dank.chat/)
+- [Frosty - IOS e Android](https://www.frostyapp.io/)
+
 ---
 
 Com a 7TV instalada, o chat das lives fica muito mais completo. Explore os emotes, divirta-se com as criações da galera e melhore sua comunicação online.
 
 ## Leia também
 
-- [Post #1](#)  
+- [Siga o eskimozin em TODAS as redes sociais](/blog/follow-on-all-social-networks-pimba/)  
 - [Post #1](#)  
 - [Post #1](#)  

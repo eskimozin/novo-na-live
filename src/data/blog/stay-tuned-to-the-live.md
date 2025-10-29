@@ -1,5 +1,5 @@
 ---
-title: Blogpost 2
+title: Fique por dentro da live
 pubDate: 12/31/2022 12:05
 author: "Elian Van Cutsem"
 tags:
