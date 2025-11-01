@@ -1,3 +1,10 @@
+# Permitir envio para gh-pages
+!dist/
+!dist/_astro/
+
 .astro
 node_modules
 dist
+
+.env
+*.env.*

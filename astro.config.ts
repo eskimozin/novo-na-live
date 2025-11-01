@@ -1,20 +1,20 @@
-import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
-import UnoCSS from 'unocss/astro';
+import {defineConfig} from "astro/config";
+import sitemap from "@astrojs/sitemap";
+import UnoCSS from "unocss/astro";
 
 export default defineConfig({
-  // used to generate images
-  site:
-    process.env.VERCEL_ENV === 'production'
-      ? 'https://brutal.elian.codes/'
-      : process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}/`
-      : 'https://localhost:3000/',
-  trailingSlash: 'ignore',
-  integrations: [sitemap(), UnoCSS({ injectReset: true })],
+  site: "https://eskimozin.github.io/novo-na-live/",
+  base: "/novo-na-live/",
+  outDir: "./dist",
+  output: "static",
+  trailingSlash: "ignore",
+  integrations: [sitemap(), UnoCSS({injectReset: true})],
   vite: {
+    build: {
+      assetsInlineLimit: 0,
+    },
     optimizeDeps: {
-      exclude: ['@resvg/resvg-js'],
+      exclude: ["@resvg/resvg-js"],
     },
   },
 });
