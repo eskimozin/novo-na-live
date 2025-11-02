@@ -34,7 +34,7 @@ const builtWith = [
               O que é "7TV" ou "OME"? Você descobre aqui! Este é um pequeno tutorial para você entender melhor o funcionamento das lives na KICK e Twitch.
             </p>
             <div class="mb-3 mt-3">
-              <Button target={'_self'} href='/'>
+              <Button target={'_self'} href='/novo-na-live/'>
                 Começar agora &rarr;
               </Button>
             </div>
@@ -54,7 +54,7 @@ const builtWith = [
               builtWith.map((item) => (
                 <li>
                   <Pill>
-                    <a class='inter' href={item.url} target='_blank' title={`${item.name}`}>
+                    <a class='inter' href={'/novo-na-live/' + item.url} target='_blank' title={`${item.name}`}>
                       {item.name}
                     </a>
                   </Pill>

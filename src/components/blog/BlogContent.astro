@@ -8,11 +8,11 @@ const { pubDate, author } = Astro.props;
 ---
 
 <article class='prose-slate w-sm md:w-prose md:prose inter'>
-  <a href='/blog/' title=''>&larr; Ver todos os posts</a>
+  <a href='/novo-na-live/blog/' title=''>&larr; Ver todos os posts</a>
   <p class='text-slate text-base'>
     Publicado em {(`0` + new Date(pubDate).getDate()).slice(-2)}.{(`0` + new Date(pubDate).getMonth()).slice(-2)}.{new Date(pubDate).getFullYear()} por {author}
   </p>
   <slot />
   <p class='text-slate'>Escrito por {author}</p>
-  <a href='/blog/'>&larr; Ver todos os posts</a>
+  <a href='/novo-na-live/blog/'>&larr; Ver todos os posts</a>
 </article>

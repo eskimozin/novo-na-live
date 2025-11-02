@@ -6,10 +6,10 @@ interface Props {
 }
 
 const navigationItems = [
-  {name: 'Home', url: '/'},
-  {name: 'Comece por aqui', url: '/blog/stay-tuned-to-the-live'},
-  {name: 'Figurinhas da live', url: '/blog/seven-tv'},
-  {name: 'Por dentro de tudo', url: '/blog/follow-on-all-social-networks-pimba'},
+  {name: 'Home', url: '/novo-na-live/'},
+  {name: 'Comece por aqui', url: '/novo-na-live/blog/stay-tuned-to-the-live'},
+  {name: 'Figurinhas da live', url: '/novo-na-live/blog/seven-tv'},
+  {name: 'Por dentro de tudo', url: '/novo-na-live/blog/follow-on-all-social-networks-pimba'},
 ];
 
 const socialIcons = [
@@ -26,7 +26,7 @@ const {pageTitle} = Astro.props;
 <header class='border-b-4 border-black flex justify-between p-6 items-center flex-wrap gap-8'>
   {pageTitle && <h1 class='hidden'>{pageTitle}</h1>}
   <div class="">
-    <a href='/' title='Ir para a Home'>
+    <a href='/novo-na-live' title='Ir para a Home'>
       <p class='inter md:text-xl'><span>Novo na Live</span> <span>🆕</span> </p>
     </a>
   </div>
@@ -38,7 +38,7 @@ const {pageTitle} = Astro.props;
           <li>
             <a
               class='text font-medium hover:text-green hover:underline transition-all duration-150 ease-in-out'
-              href={item.url}
+              href={'/novo-na-live/' + item.url}
               title={`Go to ${item.name}`}
             >
               {item.name}
@@ -50,7 +50,7 @@ const {pageTitle} = Astro.props;
         socialIcons.map((item) => (
           <li>
             <a
-              href={item.url}
+              href={'/novo-na-live/' + item.url}
               class='hover:text-green hover:underline transition-all duration-150 ease-in-out'
               target='_blank'
               title={`${item.name}`}
@@ -65,7 +65,7 @@ const {pageTitle} = Astro.props;
   <nav class='md:hidden flex inter'>
     <h2 class='hidden'>Mobile Navigation</h2>
     <ul>
-      <li><a href='/'>Comece por aqui</a></li>
+      <li><a href='/novo-na-live/'>Comece por aqui</a></li>
     </ul>
   </nav>
 </header>
